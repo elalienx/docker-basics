@@ -1,11 +1,10 @@
-# This will install an OS for us compatible with Node 12
-FROM node:12
+FROM node:20-slim
 
 WORKDIR /app
 
 COPY package*.json ./
 
-CMD ["npm", "install"]
+RUN npm install
 
 # . . Copies all our files except the ones listed in .dockeringore to avoid overwritting the node_modules
 COPY . .
