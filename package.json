@@ -1,0 +1,11 @@
+{
+  "name": "wordcloud-backend",
+  "version": "1.0.0",
+  "description": "The news feed parse for the word cloud frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
