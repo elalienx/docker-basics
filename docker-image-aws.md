@@ -1,12 +1,14 @@
 ## Install Docker service
-ssh -i testkeypair.pem ec2-user@16.16.127.247
+
+ssh -i testkeypair.pem ec2-user@13.50.101.135
 sudo yum install -y docker
 sudo service docker start
 sudo usermod -a -G docker ec2-user
 exit
-ssh -i testkeypair.pem ec2-user@16.16.127.247
+ssh -i testkeypair.pem ec2-user@13.50.101.135
 
 ## Download and run Docker image
+
 docker login
 elalienx
 dckr_pat_9SKvSOWgYVQ_ClgbmMckIJvb6tc
