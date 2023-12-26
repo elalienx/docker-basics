@@ -1,3 +1,11 @@
+## Docker Image to AWS
+
+## On Amazon EC2
+
+- Choose `Linux AWS 2023``
+- Chose ` ARM_64`` architecture (default is  `X86_64`)
+- Add Security `all-access` and `test port 8000`
+
 ## Install Docker service
 
 ssh -i testkeypair.pem ec2-user@13.50.101.135
