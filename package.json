@@ -1,5 +1,5 @@
 {
-  "name": "wordcloud-backend",
+  "name": "wordcloud_backend",
   "version": "1.0.0",
   "description": "The news feed parse for the word cloud frontend",
   "main": "src/index.js",

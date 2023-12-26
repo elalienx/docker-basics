@@ -5,7 +5,7 @@ WORKDIR /app
 
 COPY package*.json ./
 
-CMD ["npm", "install"]
+RUN npm install
 
 # . . Copies all our files except the ones listed in .dockeringore to avoid overwritting the node_modules
 COPY . .
@@ -16,4 +16,4 @@ ENV PORT=8000
 # To make the port available
 EXPOSE 8000
 
-CMD ["npm", "start"]
+CMD [ "npm", "start"]
