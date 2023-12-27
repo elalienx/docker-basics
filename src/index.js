@@ -8,5 +8,4 @@ app.get("/", (request, response) =>
   response.json({ message: "Docker is easy 🐳" })
 );
 
-app.listen(port, () => console.log(`app listening on localhost:${port}`));
-    
+app.listen(port, () => console.log(`Wordcloud listening on localhost:${port}`));
