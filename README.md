@@ -1,7 +1,5 @@
 # Docker Basics 🥉
 
-Result: [Amazon Web Services EC2 instance](http://16.16.156.222:8000/)
-
 ## About
 
 This project test the very basics of creating a Docker image containing a simple API created using Node.js and push it to the cloud using AWS EC2
